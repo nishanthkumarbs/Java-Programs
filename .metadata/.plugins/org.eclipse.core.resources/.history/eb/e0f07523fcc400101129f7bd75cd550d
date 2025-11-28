@@ -1,0 +1,21 @@
+package String;
+
+/* Write a program to count the number of vowels, consonant and digits in a sentence */
+
+public class p10 {
+	public static void main(String[] args) {
+		String s = "Deepika is 5 10 tall and beautiful";
+		s = s.toLowerCase();
+		char[] ch = s.toCharArray();
+		int vowels = 0, consonats = 0, digits = 0;
+		
+		for (char lv : ch) {
+			if (lv == 'a' || lv == 'e' || lv == 'i' || lv == 'o' || lv == 'a' ) {
+				
+			} else {
+
+			}
+		}	
+	}
+
+}

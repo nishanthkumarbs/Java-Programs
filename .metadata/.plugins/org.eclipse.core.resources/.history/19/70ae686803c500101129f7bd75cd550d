@@ -1,0 +1,13 @@
+package String;
+
+/* Write a program to check wheather 2 string words are anagrams */
+
+public class p14 {
+	public static void main(String[] args) {
+		String s1 = "Note Desserts";
+		String s2 = "Tone Stressed";
+		s1 = s1.replaceAll(" ", "");
+		s2 = s2
+	}
+
+}
