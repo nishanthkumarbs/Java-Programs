@@ -1,0 +1,12 @@
+package Object_programs;
+
+public class p3 {
+	int a = 100;
+	int b = 200;
+	public static void main(String[] args) throws CloneNotSupportedException{
+		p3 x = new p3();
+
+		p3 ob = (p3) x.clone();
+	}
+
+}

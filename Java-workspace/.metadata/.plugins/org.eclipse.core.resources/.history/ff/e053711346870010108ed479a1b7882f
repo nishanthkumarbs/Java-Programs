@@ -1,0 +1,36 @@
+package Object_programs;
+
+import java.util.Iterator;
+
+public class Car {
+	String model;
+	String color;
+	double price;
+	public Car(String model,String color,double price) {
+		this.model = model;
+		this.color = color;
+		this.price = price;
+	}
+
+	public String toString() {
+		return "Model = "+this.model+" Color = "+this.color+" Price = "+this.price;
+	}
+	public static void main(String[] args) {
+		Car x = new Car("MayBach","Black",35000000);
+		
+		Car[] ob = new Car[5];
+		
+		for (int i = 0; i < ob.length; i++) {
+			try {
+				ob[i] = (Car) x.clone();
+			} catch (CloneNotSupportedException e) {
+				
+			}
+		}
+		for (int i = 0; i < ob.length; i++) {
+			System.out.println(ob[i]);
+		}
+		
+	}
+
+}

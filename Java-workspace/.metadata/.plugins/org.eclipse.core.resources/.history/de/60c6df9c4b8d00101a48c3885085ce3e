@@ -1,0 +1,16 @@
+package Wrapper_programs;
+
+public class p9 {
+	public static void main(String[] args) {
+		Character obj1 = new Character('$');
+		char ch1 = obj1.charValue();
+		System.out.println(obj1);
+		System.out.println(ch1);
+		System.out.println("---------------");
+		Double obj2 = new Double(1256.45678d);
+		byte num1 = obj2.byteValue();
+		int num2 = obj2.intValue();
+		double num3 = obj2.doubleValue();
+	}
+
+}

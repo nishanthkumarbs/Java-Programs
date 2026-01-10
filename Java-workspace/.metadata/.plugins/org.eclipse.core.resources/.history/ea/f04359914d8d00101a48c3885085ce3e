@@ -1,0 +1,16 @@
+package Wrapper_programs;
+
+public class p8 {
+	public static void main(String[] args) {
+		int num1 = 500;
+		Integer obj1 = Integer.valueOf(num1);
+		System.out.println(num1);
+		System.out.println(obj1);
+		System.out.println("----------------");
+		String num2 = "25.5";
+		Float obj2 = Float.valueOf(num2);
+		System.out.println(num2);
+		System.out.println(obj2);
+	}
+
+}

@@ -1,0 +1,17 @@
+package Object_programs;
+
+public class Car {
+	String model;
+	String color;
+	double price;
+	public Car(String model,String color,double price) {
+		this.model = model;
+		this.color = color;
+		this.price = price;
+	}
+
+	public String toString() {
+		return "Model = "+this.model+" Color = "+this.color+" Price = "+this.price;
+	}
+
+}
